@@ -34,7 +34,7 @@ let package = Package(name: "Alamofire",
                           .library(name: "Alamofire", targets: ["Alamofire"]),
                           .library(name: "AlamofireDynamic", type: .dynamic, targets: ["Alamofire"])
                       ],
-                      targets: [.target(name: "Alamofire",
+                      targets: [.target(name: "AlamofireOld",
                                         path: "Source",
                                         exclude: ["Info.plist"],
                                         resources: [.process("PrivacyInfo.xcprivacy")],
